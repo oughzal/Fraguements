@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/txtI"
+    android:layout_gravity="center"
+    android:text="i : 0" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnFraguement1"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        android:text="Fraguement 1"/>
+    <Button
+        android:id="@+id/btnFraguement2"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Fraguement 2"/>
+</LinearLayout>
+    <FrameLayout
+
+        android:id="@+id/fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
